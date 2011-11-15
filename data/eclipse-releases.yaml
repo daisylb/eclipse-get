@@ -1,0 +1,15 @@
+#Note: These links come from the "Direct link to file" button on the right hand side of the Eclipse download page.
+#The link should end with "&r=1".
+#The correct structure of this file is release -> OS -> arch, with OS as reported by platform.system and arch as reported by platform.machine.
+#All files are for Eclipse Classic.
+
+releases:
+  indigo:
+    Linux:
+      x86_64: http://www.eclipse.org/downloads/download.php?file=/eclipse/downloads/drops/R-3.7.1-201109091335/eclipse-SDK-3.7.1-linux-gtk-x86_64.tar.gz&r=1
+      i386: http://www.eclipse.org/downloads/download.php?file=/eclipse/downloads/drops/R-3.7.1-201109091335/eclipse-SDK-3.7.1-linux-gtk.tar.gz&r=1
+    Darwin:
+      x86_64: http://www.eclipse.org/downloads/download.php?file=/eclipse/downloads/drops/R-3.7.1-201109091335/eclipse-SDK-3.7.1-macosx-cocoa-x86_64.tar.gz&r=1
+      i386: http://www.eclipse.org/downloads/download.php?file=/eclipse/downloads/drops/R-3.7.1-201109091335/eclipse-SDK-3.7.1-macosx-cocoa.tar.gz&r=1
+
+latest-release: indigo
