@@ -1,4 +1,4 @@
-# `eclipse-get`
+# eclipse-get
 
 `eclipse-get` provides an easy way to install Eclipse packages on the command line. For example, installing PyDev involves jumping through multiple dialogs to add a new repository and waiting for the slow, memory-hungry package list. this makes it as simple as `eclipse-get install pydev`.
 
