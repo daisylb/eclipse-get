@@ -6,6 +6,14 @@
 
 At current, this is probably incomplete and broken in many ways. **Don't use it yet.**
 
+## Installation
+
+Using the netinstall script, just run
+
+    bash <(wget -qO- https://github.com/adambrenecki/eclipse-get/raw/master/netinstall.sh)
+
+That's it.
+
 ## Usage
 
 * `eclipse-get list` - list packages available for install.
@@ -18,4 +26,4 @@ For more info, run `eclipse-get --help`.
 `eclipse-get` keeps its own list of available packages, which span multiple repositories and include command-line-friendly short names. If there's a package you use which isn't in there, you can:
 
 * Fork this project, add it to `data/packages.yaml`, and send a pull request
-* File an issue, with the package's name, repository (if it's not in the Eclipse releases repo) and the IU (this usually looks like `org.somebody.something.feature.group`)
+* File an issue, with the package's name, repository (if it's not in the Eclipse releases repo) and the IU (this usually looks like `com.example.something.feature.group`)
