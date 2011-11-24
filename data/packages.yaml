@@ -26,3 +26,7 @@ packages:
   thinktank-markdown:
     repo: http://winterstein.me.uk/projects/tt-update-site/
     iu: thinktank.markdown
+   
+  wordwrap:
+    repo: http://ahtik.com/eclipse-update/
+    iu: com.ahtik.wordwrap.feature.group

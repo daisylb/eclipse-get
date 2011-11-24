@@ -1,5 +1,8 @@
 #!/usr/bin/env python2.7
 
+#Note: This file is run standalone from the shell, and is renamed to eclipse-get in the isntall process.
+#It's only called eclipse_get.py here so Eclipse plays nice.
+
 from subprocess import call
 import argparse
 import yaml
