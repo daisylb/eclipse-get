@@ -30,3 +30,7 @@ packages:
   wordwrap:
     repo: http://ahtik.com/eclipse-update/
     iu: com.ahtik.wordwrap.feature.group
+  
+  eclipse-colorer:
+    repo: http://colorer.sf.net/eclipsecolorer/ 
+    iu: net.sf.colorer
