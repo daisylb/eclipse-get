@@ -52,7 +52,9 @@ with open(args.pkgfile) as f:
 	pkgfile = yaml.load(f.read())
 
 if args.action == 'list':
-	for k, v in pkgfile['packages'].iteritems():
+	pkgnames = pkgfile['packages'].keys()
+	pkgnames.sort()
+	for k in pkgnames:
 		print k
 
 elif args.action == 'install':

@@ -34,3 +34,11 @@ packages:
   eclipse-colorer:
     repo: http://colorer.sf.net/eclipsecolorer/ 
     iu: net.sf.colorer
+  
+  yedit:
+    repo: http://dadacoalition.org/yedit
+    iu: org.dadacoalition.yedit
+  
+  rest-editor: 
+    repo: http://master.dl.sourceforge.net/project/resteditor/eclipse/
+    iu: org.psem2m.eclipse.rest.editor.feature.group
