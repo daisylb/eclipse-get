@@ -46,3 +46,19 @@ packages:
   django-editor:
     repo: http://eclipse.kacprzak.org/updates
     iu: org.kacprzak.eclipse.django.feature.feature.group
+
+  android-adt: #this should be installed last
+    repo: https://dl-ssl.google.com/android/eclipse/
+    iu: com.android.ide.eclipse.adt
+
+  android-ddms:
+    repo: https://dl-ssl.google.com/android/eclipse/
+    iu: com.android.ide.eclipse.ddms
+
+  android-hierachyviewer:
+    repo: https://dl-ssl.google.com/android/eclipse/
+    iu: com.android.ide.eclipse.hierarchyviewer
+
+  android-traceview:
+    repo: https://dl-ssl.google.com/android/eclipse/
+    iu: com.android.ide.eclipse.traceview
