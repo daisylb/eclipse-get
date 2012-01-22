@@ -6,45 +6,26 @@ packages:
     repo: http://pydev.org/nightly
     iu: org.python.pydev.feature.feature.group
     cert: http://pydev.org/pydev_certificate.cer
-    filetypes:
-      - *.py
     
   egit:
     iu: org.eclipse.egit.feature.group
-    foldertypes:
-      - .git
     
   cdt:
     iu: org.eclipse.cdt.feature.group
-    filetypes:
-      - *.c
-      - *.cpp
-      - *.c++
-      - *.cxx
-      - Makefile
     
   jsdt:
     iu: org.eclipse.wst.jsdt.feature.feature.group
-    filetypes:
-      - *.js
     
   wdt:
     iu: org.eclipse.wst.web_ui.feature.feature.group
-    filetypes:
-      - *.html
     
   mercurialeclipse:
     repo: http://cbes.javaforge.com/update
     iu: mercurialeclipse.feature.group
-    foldertypes:
-      - .hg
     
   thinktank-markdown:
     repo: http://winterstein.me.uk/projects/tt-update-site/
     iu: thinktank.markdown
-    filetypes:
-      - *.md
-      - *.markdown
    
   wordwrap:
     repo: http://ahtik.com/eclipse-update/
@@ -57,18 +38,11 @@ packages:
   yedit:
     repo: http://dadacoalition.org/yedit
     iu: org.dadacoalition.yedit
-    filetypes:
-      - *.yml
-      - *.yaml
   
   rest-editor: 
     repo: http://master.dl.sourceforge.net/project/resteditor/eclipse/
     iu: org.psem2m.eclipse.rest.editor.feature.group
-    filetypes:
-      - *.rst
   
   django-editor:
     repo: http://eclipse.kacprzak.org/updates
     iu: org.kacprzak.eclipse.django.feature.feature.group
-    filetypes:
-      - manage.py
